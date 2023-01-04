@@ -1,0 +1,183 @@
+\u5357\u9633\u5F20\u4EF2\u666F\u533B\u9662\u4EF2\u666F\u5065\u5EB7\u4E92\u8054\u7F51\u533B\u9662
+
+
+
+birthday: 1989-04-16
+pastHistory: 
+gender: 1
+guardianIdCard: 
+phone: 13073772935
+guardianName: 
+idCard: 410704198904161541
+childTag: 0
+name: 王琳
+allergy: 
+guardianPhone: 
+relation: 0
+
+
+
+
+
+
+-- 用户表
+patient
+
+-- 就诊人信息
+patient_inquirer_info
+
+dr_medication_recom
+    status  '推荐用药是否购药，0：待购买，1：已购买，2：已下单(待支付), 4:已取消',
+    invalid '作废状态：0 正常  1 作废',
+    buy_status  '处方购买状态：0：未缴费，1：已购买，2：已发货，3：已签收，4：已退款',
+    expire_at '推荐有效期',
+    force_recom '强制推荐标识 0:推荐未发送, 1:非强制推荐,2:强制推荐(不进行电子签名)',
+    syndrome    '中药处方辩证',
+    disease     '中药处方辨病',
+    diagnosis   '方笺临床诊断 V2.5.0',
+    drug_type   '处方标识1：西药，2：中药',
+    warehouse_id    '药店id',
+    inquirer_id '就诊人id',
+    resource_channel    '来源渠道：0线上，1到店购药',
+    created_at  '创建时间',
+    doctor_id   '医生ID',
+    patient_id  '患者ID',
+    id  '主键'
+
+recom_audit_log
+    status  审核状态(0:待审核,1:通过,2:不通过,3:已超时)
+
+
+
+-- 已支付(显示价格) 根据e_order表里面的pay_status字段判断
+    status=1
+-- 未支付 (未超时未支付)
+    status=0,2
+-- 已失效 (超时未支付)
+    expire_at < now()
+
+
+naiterui-wechat|wx_thumb_media_id
+vAl2z2hrr4BKxG-Qs4XAbB4qYZ5Z_3IorCtycebVTBSSy3WfzdrZI2IeZVzsQlUH
+
+
+SELECT dmri
+FROM DrMedicationRecomInfo dmri
+JOIN MedicationRecom dmr ON dmri.recommendId=dmr.id
+JOIN RecomAuditLog ral ON dmri.recommendId=ral.recomId
+WHERE dmr.doctorId = ?1
+AND dmr.status=0
+AND dmr.expireAt < now()
+AND dmr.type!=3
+AND dmr.forceRecom !=0
+AND ral.status=1
+ORDER BY dmri.createdAt DESC
+
+-- 订单商品明细
+e_order_item
+
+-- 订单 - 物流表
+e_logistics_order
+
+-- 订单 - 物流信息表
+e_logistics_route_order
+
+
+-- 用户信息:名称,头像
+-- 就诊人信息: 姓名,性别,年龄
+-- 处方信息: 诊断,门店(药房),药品类型,创建时间,处方状态
+-- 订单信息: 价格,支付状态
+
+
+
+
+
+
+
+1920*1080
+2,073,600
+
+2560*1440
+3,686,400
+
+
+https://haojiahuo.top/auth/register?code=gYYG
+
+
+
+docker run --name=portainer_new
+    --hostname=70476c317017
+    --env=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    --volume=/var/run/docker.sock:/var/run/docker.sock
+    --volume=portainer_data:/data
+    --volume=/data
+    --workdir=/
+    -p 8000:8000
+    -p 9000:9000
+    --restart=always
+    --runtime=runc
+    --detach=true portainer/portainer-ce
+
+docker run -d \
+    -p 3306:3306 \
+    --name mysql_main \
+    -v /root/data/mysql/data:/var/lib/mysql/ \
+    -e MYSQL_ROOT_PASSWORD=root \
+    --restart always  \
+    mysql:8.0.30
+    V8PP6xBP.3Ted66
+
+
+
+
+${ehp.domain.user}/ad/inner/userinfo/save/remarkname
+
+
+
+
+prescriptionReapply: WxApiRoot +  'recommend/medication/require/patient/again', // 再次购买
+settlements: WxApiRoot + 'b2c/carts/recom/settlements', //处方确定购买页面详情
+
+
+
+
+
+
+https://api-hnzzj.naiterui.com/pay/callback/
+
+
+
+
+create table table_name
+(
+    id       bigint auto_increment comment '主键',
+    sn       varchar(16) not null comment '收钱吧系统内部唯一订单号',
+    column_3 int         null,
+    constraint table_name_pk
+        primary key (id)
+);
+
+create unique index table_name_id_uindex
+    on table_name (id);
+
+create unique index table_name_sn_uindex
+    on table_name (sn);
+
+
+
+
+
+www.baidu.com 如果支付成功通知时间间隔为1s,5s,30s,600s
+
+
+
+选择绑定药店接口，（搜索接口，搜索条件，药房来源，门店名称，门店编号）
+
+前端选择门店，选择某个或多个或全选（当是全选时绑定所有的激活的除了以绑定的），提交（绑定接口），
+已绑定的门店筛选条件
+@孙靖宇  @银廷琛  
+
+查询医生已绑定门店
+查询未绑定门店
+
+医生批量绑定门店and医生绑定全部门店(一个接口)

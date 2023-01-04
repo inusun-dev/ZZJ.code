@@ -1,0 +1,26 @@
+
+// 定时任务
+    ScheduleUtils.addCustomerTask(this.scheduleHost
+        , invokeTime
+        , ScheduleUtils.TASH_TYPE_AUTO_AUDIT
+        , String.valueOf(recomId)
+        ,this.pharmacistHost + "/inner/recommend/auto/audit"
+        , paramMap
+    );
+
+// 数据字典
+
+RestHttpUtil.post()
+            .url(FACE_ID_URL)
+腾讯人脸识别的
+
+
+
+HttpRequestUtils
+
+
+
+
+
+
+

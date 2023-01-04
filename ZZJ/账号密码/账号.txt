@@ -1,0 +1,126 @@
+已废弃
+    腾讯云:
+        新老商城:
+            新服务器主机: 
+                82.157.18.198
+                22
+                root
+                +~qR49vTL?5H
+            新服务器次机: 
+                81.70.22.250
+                22
+                root
+                (密码我也不知道)
+        MySQL:
+            139.9.142.100
+            3306
+            root
+            Admin@6966
+        Redis:
+            123.249.104.62
+            6379
+            Zzjdyfxls6966
+
+
+华为云
+    新老商城
+        服务器主机: 139.9.142.100:22
+        密钥文件登录(ZZJ\账号密码\shangcheng.pem), 账户名: root
+
+        服务器次机: 139.9.142.100:23
+        密钥文件登录(ZZJ\账号密码\shangcheng.pem), 账户名: root
+
+
+
+本地:
+    101服务器:
+        192.168.3.101
+        22
+        root
+        4rfv$TGB
+
+
+
+互联网医院:
+    正式网址: https://cms.zjhealthkj.com/system/user
+    账号: super
+    密码: Admin123.
+
+    开发环境:
+
+    测试环境:
+
+    正式环境:
+
+
+
+
+
+本地网址: http://192.168.59.24:8000/CN/cnMedicine/drinkList
+账号: 026474
+密码: Wang.0.0.0.
+
+开发集群环境redis连接: 
+地址: 192.168.59.132
+端口: 31379
+密码: Z6Jte9NzNfHBfJlB
+
+本地开发数据库
+url: jdbc:mysql://192.168.59.131
+port: 31306
+username: ehp_java 
+password: EiHKjChA7n5miwpv 
+
+
+以下test环境
+SSH通道
+120.46.153.236
+22
+root
+zfqCHYJ8qeZW9uwS
+
+Redis连接
+172.17.122.236
+32767
+Z6Jte9NzNfHBfJlB
+
+
+正式环境mysql
+SSH通道
+120.46.153.236
+22
+root
+zfqCHYJ8qeZW9uwS
+
+mysql连接
+172.17.119.200
+3306
+root
+zfqCHYJ8qeZW9uwS
+
+测试mongo
+SSH通道
+120.46.153.236
+22
+root
+zfqCHYJ8qeZW9uwS
+
+Mongo连接
+172.17.122.236
+32766
+ehp_java
+8synXDDkJhOftART
+
+正式
+Mongo连接
+172.17.122.236
+31614
+ehp_java
+8synXDDkJhOftART
+
+开发
+Mongo连接
+192.168.59.132
+31017
+ehp_java
+8synXDDkJhOftART

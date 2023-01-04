@@ -1,0 +1,22 @@
+1.卸载
+slmgr.vbs /upk
+
+会提示成功卸载密钥，没有密钥的会提示找不到产品密钥。
+
+2.安装密钥
+slmgr /ipk 密钥
+
+密钥请在下面密钥列表中找自己对应版本的密钥，例如：slmgr /ipk WMDGN-G9PQG-XVVXX-R3X43-63DFG，提示安装成功后进行下一步
+
+3.设置激活服务器
+slmgr /skms kms.ghpym.com
+
+提示设置成功后进行下一步
+
+4.开始激活
+slmgr /ato
+
+输入后回车，稍等一会，会提示激活成功。
+
+
+M7XTQ-FN8P6-TTKYV-9D4CC-J462D

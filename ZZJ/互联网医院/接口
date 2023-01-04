@@ -1,0 +1,29 @@
+
+
+https://api-hnzzj.naiterui.com/pharmacist/user/globalConfig
+
+https://api.zjhealthkj.com/emr/patient/disease/add
+
+https://api.zjhealthkj.com/ap/patient/consult/disclaimer
+
+# 医生绑定门店列表
+/pharmacy/warehouse/list
+    https://api-test.zjhealthkj.com/cms/pharmacy/warehouse/list?doctorId=48&pageNo=1&pageSize=10&orderByField=id&orderBy=desc
+
+
+
+# 中药处方信息保存
+recommend/tcm/save
+# 中药处方签名
+recommend/tcm/sign
+# 中药处方签名后确认发送
+recommend/tcm/confirm
+
+
+
+
+
+
+
+
+
