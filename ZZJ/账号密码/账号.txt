@@ -56,8 +56,18 @@
 
         15690870483
         admin6966!
+    101MySQL:
+        192.168.3.101
+        3306
+        root
+        root
 
+远程链接部署的服务器
+    win+r  输入 mstsc
 
+    192.168.5.162
+    Administrator
+    123456
 
 
 互联网医院:
@@ -80,14 +90,6 @@
 zzjds
 .maE`g2K
 
-## 远程链接部署的服务器
-
-win+r  输入 mstsc
-
-192.168.5.162
-Administrator
-123456
-
 
 ## 电商门店编号
 
@@ -105,30 +107,19 @@ B55DA590DCE3CF23E0531503A8C097D0  ZZJDYF_GZH  张仲景大药房_公众号  F  Z
 
 如果redis想启动项目是本地的话就需要加上
 
-建												值
+键							值
 
 oms_delivery_amount_b2c  "5000"
 
 oms_delivery_amount_b2c  "5000"
-
-
-### Maven仓库地址
-
-C:\Users\Administrator\.m2\repository
 
 
 
 http://localhost:41005/servers/swagger-ui.html#/    商城
 
-
-
 http://localhost:41005/servers/mall/  postman测试地方
 
-
-
 http://localhost:31005/oms/swagger-ui.html#!/   Oms
-
-
 
 http://localhost:55005/wechatthepublic/swagger-ui.html#/ 企业微信
 
@@ -139,8 +130,6 @@ http://localhost:55005/wechatthepublic/swagger-ui.html#/ 企业微信
 101服务器  /usr/local/nginx/conf
 
  ./nginx -s reload  重启
-
-
 
 
 
@@ -166,19 +155,11 @@ https://192.168.3.30:444
 
 https://192.168.3.30:444/svn/仲景中台/后端/主干/oms
 
-
-
 https://192.168.3.30:444/svn/仲景平台/后端/
-
-
 
 https://192.168.3.30:444/svn/仲景中台/后端/主干/sdk
 
-
-
 [https://192.168.3.30:444/svn/SDK/api](https://win-c9ulck1fqrf:444/svn/SDK/api)
-
-
 
 https://192.168.3.30:444/svn/SDK/impl
 
