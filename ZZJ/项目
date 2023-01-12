@@ -3,15 +3,23 @@
 
 新商城
 	D:\Code\仲景平台\后端\核心项目
-新商城 数据库(新商城依赖)
+新商城 数据库 (新商城依赖)
 	D:\Code\仲景平台\后端\数据库
-新商城 oms.sdk(新商城依赖)
+新商城 oms.sdk (新商城依赖)
 	D:\Code\仲景中台\主干\sdk
 新商城 sdk.impl (oms.sdk依赖)
 	D:\Code\SDK\impl
 新商城 sdk.api (sdk.impl依赖)
 	D:\Code\SDK\api
 
+oms
+	D:\Code\仲景中台\主干\oms
+oms oms.sdk ()
+	D:\Code\仲景中台\主干\sdk
+oms sdk.impl (oms.sdk依赖)
+	D:\Code\SDK\impl
+oms sdk.api (sdk.impl依赖)
+	D:\Code\SDK\api
 
 老商城
 	D:\Code\zzj-java\servers\trunk
