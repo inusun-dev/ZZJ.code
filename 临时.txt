@@ -2,19 +2,9 @@
 
 
 
-birthday: 1989-04-16
-pastHistory: 
-gender: 1
-guardianIdCard: 
-phone: 13073772935
-guardianName: 
-idCard: 410704198904161541
-childTag: 0
-name: 王琳
-allergy: 
-guardianPhone: 
-relation: 0
 
+
+test
 
 
 
