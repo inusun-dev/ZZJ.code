@@ -12,17 +12,23 @@
 新商城 sdk.api (sdk.impl依赖)
 	D:\Code\SDK\api
 
-oms
+新oms
 	D:\Code\仲景中台\主干\oms
-oms oms.sdk ()
+新oms oms.sdk ()
 	D:\Code\仲景中台\主干\sdk
-oms sdk.impl (oms.sdk依赖)
+新oms sdk.impl (oms.sdk依赖)
 	D:\Code\SDK\impl
-oms sdk.api (sdk.impl依赖)
+新oms sdk.api (sdk.impl依赖)
 	D:\Code\SDK\api
 
 老商城
 	D:\Code\zzj-java\servers\trunk
 老商城 common
 	D:\Code\zzj-java\component\common
+
+老oms
+	D:\Code\zzj-java\service\oms
+老oms common
+	D:\Code\zzj-java\component\common
+
 
