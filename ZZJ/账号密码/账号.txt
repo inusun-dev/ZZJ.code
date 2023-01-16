@@ -69,6 +69,9 @@
     Administrator
     123456
 
+    192.168.59.135
+    
+
 
 互联网医院:
     正式网址: https://cms.zjhealthkj.com/system/user
@@ -173,7 +176,7 @@ wangjiaxiang
 
 ### oracle
 
-账号ebuser
+账号 ebuser
 密码 admin69329989
 192.168.3.16
 
