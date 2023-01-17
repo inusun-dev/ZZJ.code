@@ -1,6 +1,1 @@
-select mall_nact_base_info_id, activity_code, activity_name, activity_start_date_time, activity_end_date_time, activity_type_code, activity_type_name, 
-activity_show_type, activity_area, main_tag, show_tag, show_area, activity_main_img_url, activity_rule_img_url, activity_rule_text_content, activity_sort, 
-free_mail_rule_id, time_cycle_control_tag, end_tag, create_date_time, create_admin_code, create_admin_name, use_partake_limit, delete_tag, now_status 
-from mall_nact_base_info where mall_nact_base_info_id = ? 
-
-
+docker run -d -p 1521:1521 -p 8080:8080 --name oracle_1.0_11g -e ORACLE_PASSWORD=root -v /home/oracle/oracle_test:/u01/app/oracle/oradata gvenzl/oracle-xe:11

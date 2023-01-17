@@ -14,16 +14,30 @@ https://api.zjhealthkj.com/ap/patient/consult/disclaimer
 
 # 中药处方信息保存
 recommend/tcm/save
+
 # 中药处方签名
 recommend/tcm/sign
-# 中药处方签名后确认发送
+
+# 中药处方签名后确认发送 发送处方
 recommend/tcm/confirm
 
 
 
+# 查看患者填写病历详情, 此时还未生成病历
+https://api-test.zjhealthkj.com/emr/case/initCase
+
+
+https://api-test.zjhealthkj.com/emr/case/record/add/initialize/v2
+
+# 医生填写病历时的上传图片接口
+https://api-test.zjhealthkj.com/emr/case/uploadCaseImg
+
+# 保存病历
+https://api-test.zjhealthkj.com/emr/case/saveDrCase
 
 
 
+confirm/v2
 
 
 
