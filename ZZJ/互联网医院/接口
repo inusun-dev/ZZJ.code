@@ -39,5 +39,7 @@ https://api-test.zjhealthkj.com/emr/case/saveDrCase
 
 confirm/v2
 
+# 运营端 保存修改商品:药品
+/wms/medicine/drug/update
 
 

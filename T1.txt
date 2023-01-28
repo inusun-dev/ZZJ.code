@@ -1,1 +1,4 @@
-{"unionId": "will_6cc7f01b8f394b4fbafbaf7ff182eb8f", "signFlag": new NumberInt("2"), "doctorName": "卢天雷", "hospitalName": "南阳张仲景医院仲景健康互联网医院", "signTime": new ISODate("2023-01-17T01:50:43.000Z"), "sealImage": "/recommend/images/seal/dr/c64f8627-6ad9-4450-bee6-f776d880a092.png", "files": [{"path": "/emr/static/pdf/247/63c5fe8ace0b9d7f8741e016.pdf", "type": new NumberInt("1"), "time": new ISODate("2023-01-17T01:48:59.329Z")}, {"path": "/emr/static/pdf/247/esign/63c5fe8ace0b9d7f8741e016.pdf", "type": new NumberInt("2"), "time": new ISODate("2023-01-17T01:50:43.000Z")}]}
+1700
+3800
+
+
