@@ -1,5 +1,4 @@
 
-
 https://api-hnzzj.naiterui.com/pharmacist/user/globalConfig
 
 https://api.zjhealthkj.com/emr/patient/disease/add
@@ -35,11 +34,10 @@ https://api-test.zjhealthkj.com/emr/case/uploadCaseImg
 # 保存病历
 https://api-test.zjhealthkj.com/emr/case/saveDrCase
 
-
-
 confirm/v2
+
 
 # 运营端 保存修改商品:药品
 /wms/medicine/drug/update
-
+    Feign: b2c/inner/cms/medicine/saveOrUpdate
 
