@@ -41,3 +41,12 @@ confirm/v2
 /wms/medicine/drug/update
     Feign: b2c/inner/cms/medicine/saveOrUpdate
 
+
+# 用户端, 到店购药, 查询药品列表
+https://api.zjhealthkj.com/ap/goods/search
+    search.product.list=${ehp.domain.medical}/b2c/inner/product/search
+
+
+
+
+
