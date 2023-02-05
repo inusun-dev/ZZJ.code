@@ -42,7 +42,7 @@ confirm/v2
     Feign: b2c/inner/cms/medicine/saveOrUpdate
 
 
-# 用户端, 到店购药, 查询药品列表
+# 用户端 - 到店购药, 医生端 - 开方, 运营端 - 维护商品列表 : 查询药品列表
 https://api.zjhealthkj.com/ap/goods/search
     search.product.list=${ehp.domain.medical}/b2c/inner/product/search
 

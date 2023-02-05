@@ -90,3 +90,11 @@ create unique index table_name_sn_uindex
 南阳张仲景西药药房
 001
 id是17(可能)
+
+
+/ad/product/search
+/ap/goods/search
+/b2c/inner/product/search
+/b2c/product/list
+
+
