@@ -102,3 +102,33 @@ https://api-test.zjhealthkj.com/cms/wms/medicine/sku/list/12965
 
 
 ${ehp.domain.im}/inner/sendTcmRecommend
+
+
+
+/dataview/overallview/query
+/dataview/doctorview/query
+/dataview/warehouseview/query
+/dataview/orderview/query
+/dataview
+/dataview
+/dataview
+
+
+
+
+
+
+
+nohup java -DJENKINS_HOME=/home/jenkins/lib \
+            -jar /usr/local/src/jenkins-2.319.3-lts.war \
+            --logfile=/home/jenkins/log/jenkins.log \
+            --httpPort=8080 > /dev/null 2>&1 &
+
+
+
+
+
+
+
+
+tar xf harbor-offline-installer-v2.0.2.tgz -C /opt/ /opt/harbor

@@ -1,8 +1,21 @@
 {
-    "sessionId": "47_258_1675651356912",
-    "beginTime": new NumberLong("1675651356911"),
-    "payType": new NumberInt("0"),
-    "consultPayType": new NumberInt("0"),
-    "consultSourceType": new NumberInt("0"),
-    "clinicFirst": new NumberInt("0")
+    "data-root": "/home/docker/data",
+    "storage-driver": "overlay2",
+    "insecure-registries": [
+        "registry.access.redhat.com",
+        "quay.io"
+    ],
+    "registry-mirrors": [
+        "https://q2gr04ke.mirror.aliyuncs.com"
+    ],
+    "exec-opts": [
+        "native.cgroupdriver=systemd"
+    ],
+    "log-opts": {
+        "max-size": "100M",
+        "max-file": "3"
+    },
+    "insecure-registries": [
+        "192.168.59.50:180"
+    ]
 }

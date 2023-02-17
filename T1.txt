@@ -1,2 +1,1 @@
-https://oms.zzjdyf.com/oms/limit/base/platform/store/infos/dis?
-lng=120.315954&lat=22.617751&pageInfo=&half=0.03
+--insecure-registry ip:5000
