@@ -47,6 +47,12 @@ https://api.zjhealthkj.com/ap/goods/search
     search.product.list=${ehp.domain.medical}/b2c/inner/product/search
 
 
+# 
+cms/wms/product/import
 
+
+
+# 支付回调
+https://api-hnzzj.naiterui.com/pay/callback/
 
 

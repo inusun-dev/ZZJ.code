@@ -41,20 +41,7 @@ https://api-hnzzj.naiterui.com/pay/callback/
 
 
 
-create table table_name
-(
-    id       bigint auto_increment comment '主键',
-    sn       varchar(16) not null comment '收钱吧系统内部唯一订单号',
-    column_3 int         null,
-    constraint table_name_pk
-        primary key (id)
-);
 
-create unique index table_name_id_uindex
-    on table_name (id);
-
-create unique index table_name_sn_uindex
-    on table_name (sn);
 
 
 
@@ -104,31 +91,26 @@ https://api-test.zjhealthkj.com/cms/wms/medicine/sku/list/12965
 ${ehp.domain.im}/inner/sendTcmRecommend
 
 
-
-/dataview/overallview/query
-/dataview/doctorview/query
-/dataview/warehouseview/query
-/dataview/orderview/query
-/dataview
-/dataview
-/dataview
-
-
-
-
-
-
-
-nohup java -DJENKINS_HOME=/home/jenkins/lib \
-            -jar /usr/local/src/jenkins-2.319.3-lts.war \
-            --logfile=/home/jenkins/log/jenkins.log \
-            --httpPort=8080 > /dev/null 2>&1 &
-
-
-
-
-
-
-
-
 tar xf harbor-offline-installer-v2.0.2.tgz -C /opt/ /opt/harbor
+
+
+
+
+货号问题----商品配置skuid和导入的货号关系，货号是唯一，我们的id用的是货号。商品信息、门店商品库存、订单信息都需要体现货号。(总后台、门店后台都需要看到，尤其是订单信息)
+
+导入商品信息
+    product_import_id和import_code
+    sku规格信息末尾有多个零 √
+    sku drug_name和common_name
+
+
+
+
+
+
+
+
+
+
+
+
