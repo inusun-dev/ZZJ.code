@@ -1,7 +1,7 @@
 \u5357\u9633\u5F20\u4EF2\u666F\u533B\u9662\u4EF2\u666F\u5065\u5EB7\u4E92\u8054\u7F51\u533B\u9662
+南阳张仲景医院仲景健康互联网医院
 
-naiterui-wechat|wx_thumb_media_id
-vAl2z2hrr4BKxG-Qs4XAbB4qYZ5Z_3IorCtycebVTBSSy3WfzdrZI2IeZVzsQlUH
+
 
 1920*1080
 2,073,600
@@ -30,22 +30,6 @@ ${ehp.domain.user}/ad/inner/userinfo/save/remarkname
 
 prescriptionReapply: WxApiRoot +  'recommend/medication/require/patient/again', // 再次购买
 settlements: WxApiRoot + 'b2c/carts/recom/settlements', //处方确定购买页面详情
-
-
-
-
-
-
-https://api-hnzzj.naiterui.com/pay/callback/
-
-
-
-
-
-
-
-
-
 
 
 
@@ -100,6 +84,7 @@ tar xf harbor-offline-installer-v2.0.2.tgz -C /opt/ /opt/harbor
 
 导入商品信息
     product_import_id和import_code
+        商品信息导入的时候增加product_import_id和import_code
     sku规格信息末尾有多个零 √
     sku drug_name和common_name
 
