@@ -82,12 +82,40 @@ tar xf harbor-offline-installer-v2.0.2.tgz -C /opt/ /opt/harbor
 
 货号问题----商品配置skuid和导入的货号关系，货号是唯一，我们的id用的是货号。商品信息、门店商品库存、订单信息都需要体现货号。(总后台、门店后台都需要看到，尤其是订单信息)
 
+
+西药
+    1. product_import_id和import_code放在p_product还是p_sku里面的问题
+        方案: 两个都留着, 批量导入的时候需要根据product_import_id来匹配product和sku
+    2. 根据1修改导入商品模板 此外,导入商品模板中 sku还需加入drug_name和common_name
+        方案: 
+    3. 根据2修改添加单个商品和管理sku
+
+    4. 西药开处方的时候好像不用改（处方的药品列表没有保存货号和69码）
+    5. 同理生成订单的时候应该也不用改(订单保存的时候只关联了处方)
+
+中药
+    饮片 /cms/tcm/slice
+
+    方剂 /cms/tcm/recipe
+
+
+
+
 导入商品信息
     product_import_id和import_code
         商品信息导入的时候增加product_import_id和import_code
     sku规格信息末尾有多个零 √
     sku drug_name和common_name
 
+单个添加商品
+
+
+
+开处方
+
+
+
+下订单
 
 
 
@@ -97,5 +125,6 @@ tar xf harbor-offline-installer-v2.0.2.tgz -C /opt/ /opt/harbor
 
 
 
+03771182
 
 
